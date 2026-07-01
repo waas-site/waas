@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Policy | WaaS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="legal-header">
+        <div class="legal-header-inner">
+            <a href="index.html" class="legal-brand"><img src="assets/images/waas-logo.png" alt="WaaS Logo"></a>
+            <a href="index.html" class="legal-back">
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+    </header>
+
+    <div class="legal-hero">
+        <span class="legal-eyebrow">Legal</span>
+        <h1>Cookie Policy</h1>
+        <p class="legal-meta"><strong>Effective Date:</strong> 27 June 2026 &nbsp;·&nbsp; WaaS (Website as a Service) &nbsp;·&nbsp; Botswana</p>
+    </div>
+
+    <div class="legal-content">
+
+        <div class="legal-section">
+            <h2>What Are Cookies</h2>
+            <p>Cookies are small text files placed on your device when you visit a website. They help websites remember your preferences, understand how you use the site, and improve your experience over time.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>What Cookies We Use</h2>
+            <p>Our website uses the following types of cookies:</p>
+
+            <h3>Essential Cookies</h3>
+            <p>These are required for the website to function properly. They cannot be turned off. They do not store any personally identifiable information.</p>
+
+            <h3>Analytics Cookies</h3>
+            <p>These help us understand how visitors interact with our site: which pages are most visited, how long people stay, and where they come from. This data is used in aggregate and is anonymous. We may use tools like Google Analytics for this purpose.</p>
+
+            <h3>Preference Cookies</h3>
+            <p>These remember your settings and choices so you don't have to re-enter them every visit (e.g. language or display preferences).</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>Third-Party Cookies</h2>
+            <p>Some pages on our site may include content or links from third-party platforms (such as WhatsApp, Instagram, YouTube, or TikTok). These platforms may place their own cookies on your device. We do not control those cookies and recommend reviewing each platform's own cookie policy.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>Managing Cookies</h2>
+            <p>You can control and manage cookies through your browser settings. Most browsers allow you to:</p>
+            <ul>
+                <li>View what cookies are stored</li>
+                <li>Delete specific or all cookies</li>
+                <li>Block cookies from specific or all websites</li>
+            </ul>
+            <div class="legal-highlight">
+                Please note that disabling certain cookies may affect how our website functions.
+            </div>
+        </div>
+
+        <div class="legal-section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Cookie Policy from time to time to reflect changes in technology or legal requirements. The latest version will always be available on our website.</p>
+        </div>
+
+    </div>
+
+    <footer class="legal-footer">
+        <div class="legal-footer-nav">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <span class="legal-footer-sep">·</span>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <span class="legal-footer-sep">·</span>
+            <a href="refund-policy.html">Refund Policy</a>
+            <span class="legal-footer-sep">·</span>
+            <a href="cookie-policy.html" class="active">Cookie Policy</a>
+        </div>
+        <p>&copy; 2026 WaaS Corp. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.legal-back').addEventListener('click', function(e) {
+            e.preventDefault();
+            if (document.referrer && document.referrer.includes(window.location.hostname)) {
+                history.back();
+            } else {
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+
+</body>
+</html>

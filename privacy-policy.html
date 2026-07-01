@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | WaaS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="legal-header">
+        <div class="legal-header-inner">
+            <a href="index.html" class="legal-brand"><img src="assets/images/waas-logo.png" alt="WaaS Logo"></a>
+            <a href="index.html" class="legal-back">
+                <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 12L6 8L10 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Back to Home
+            </a>
+        </div>
+    </header>
+
+    <div class="legal-hero">
+        <span class="legal-eyebrow">Legal</span>
+        <h1>Privacy Policy</h1>
+        <p class="legal-meta"><strong>Effective Date:</strong> 27 June 2026 &nbsp;·&nbsp; WaaS (Website as a Service) &nbsp;·&nbsp; Botswana</p>
+    </div>
+
+    <div class="legal-content">
+
+        <div class="legal-section">
+            <h2>What We Collect</h2>
+            <p>When you interact with WaaS, whether through our website, WhatsApp, or email, we may collect the following information:</p>
+            <ul>
+                <li>Your name and contact details (phone number, email address)</li>
+                <li>Business name and project details</li>
+                <li>Payment information (processed securely; we do not store card details)</li>
+                <li>Any content, images, or files you send us for your project</li>
+                <li>Basic usage data from our website (pages visited, time spent, device type)</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>How We Use Your Information</h2>
+            <p>We use your information to:</p>
+            <ul>
+                <li>Communicate with you about your project</li>
+                <li>Process payments and invoices</li>
+                <li>Deliver the services you have requested</li>
+                <li>Improve our own website and services</li>
+                <li>Contact you about new services or offers (only if you have opted in)</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>Who We Share It With</h2>
+            <p>We do not sell your personal information to anyone. We may share limited information with:</p>
+            <ul>
+                <li>Payment processors, solely to complete your transaction</li>
+                <li>Hosting or deployment platforms required to deliver your project (e.g. Vercel, GitHub)</li>
+                <li>Any third party you specifically request us to work with on your behalf</li>
+            </ul>
+        </div>
+
+        <div class="legal-section">
+            <h2>How We Store It</h2>
+            <p>Your information is stored securely. Project files and communications are kept for a reasonable period after project completion in case of follow-up support. You can request deletion of your data at any time by contacting us.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Request a copy of the information we hold about you</li>
+                <li>Request correction of any inaccurate information</li>
+                <li>Request deletion of your data</li>
+                <li>Opt out of any marketing communications at any time</li>
+            </ul>
+            <div class="legal-highlight">
+                To exercise any of these rights, contact us via WhatsApp or email.
+            </div>
+        </div>
+
+        <div class="legal-section">
+            <h2>Third-Party Links</h2>
+            <p>Our website may contain links to third-party platforms (social media, client sites, etc.). We are not responsible for the privacy practices of those platforms.</p>
+        </div>
+
+        <div class="legal-section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. The latest version will always be on our website.</p>
+        </div>
+
+    </div>
+
+    <footer class="legal-footer">
+        <div class="legal-footer-nav">
+            <a href="privacy-policy.html" class="active">Privacy Policy</a>
+            <span class="legal-footer-sep">·</span>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <span class="legal-footer-sep">·</span>
+            <a href="refund-policy.html">Refund Policy</a>
+            <span class="legal-footer-sep">·</span>
+            <a href="cookie-policy.html">Cookie Policy</a>
+        </div>
+        <p>&copy; 2026 WaaS Corp. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Back button always returns to home
+        document.querySelector('.legal-back').addEventListener('click', function(e) {
+            e.preventDefault();
+            if (document.referrer && document.referrer.includes(window.location.hostname)) {
+                history.back();
+            } else {
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+
+</body>
+</html>

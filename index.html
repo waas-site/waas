@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaaS | Website as a Service</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- News Ticker -->
+    <div class="ticker-wrap">
+        <div class="ticker-track">
+            <span class="ticker-content">🔥 &nbsp;<span class="t-hi">LIMITED TIME OFFER</span>&nbsp; Growth Plan Setup: <span class="t-strike">P5,000</span> &nbsp;<span class="t-hi">P2,500</span><span class="t-badge">50% OFF</span>&nbsp; Book now on WhatsApp &nbsp;&nbsp; &nbsp;&nbsp;</span>
+            <span class="ticker-content">🔥 &nbsp;<span class="t-hi">LIMITED TIME OFFER</span>&nbsp; Growth Plan Setup: <span class="t-strike">P5,000</span> &nbsp;<span class="t-hi">P2,500</span><span class="t-badge">50% OFF</span>&nbsp; Book now on WhatsApp &nbsp;&nbsp; &nbsp;&nbsp;</span>
+            <span class="ticker-content">🔥 &nbsp;<span class="t-hi">LIMITED TIME OFFER</span>&nbsp; Growth Plan Setup: <span class="t-strike">P5,000</span> &nbsp;<span class="t-hi">P2,500</span><span class="t-badge">50% OFF</span>&nbsp; Book now on WhatsApp &nbsp;&nbsp; &nbsp;&nbsp;</span>
+            <span class="ticker-content">🔥 &nbsp;<span class="t-hi">LIMITED TIME OFFER</span>&nbsp; Growth Plan Setup: <span class="t-strike">P5,000</span> &nbsp;<span class="t-hi">P2,500</span><span class="t-badge">50% OFF</span>&nbsp; Book now on WhatsApp &nbsp;&nbsp; &nbsp;&nbsp;</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="assets/images/waas-logo.png" alt="WaaS Logo">
+        </div>
+        <div class="nav-cta">
+            <a href="#about" class="btn-nav-text">About Us</a>
+            <a href="#portfolio" class="btn-nav-text">Portfolio</a>
+            <a href="https://wa.me/26770000000" class="clay-button nav-btn">Book A Gig</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text" data-aos="fade-right">
+            <h1>Websites That Move<br><span class="text-primary">Your Business</span></h1>
+        </div>
+        <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+            <canvas id="dino-canvas" width="640" height="360"></canvas>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <h2 class="section-title" data-aos="fade-down">Simple, Honest Pricing</h2>
+        <p class="section-sub" data-aos="fade-down" data-aos-delay="100">No hidden fees. Pay once to launch, then choose your level of ongoing support.</p>
+
+        <div class="pricing-grid">
+
+            <!-- Tier 1: Starter -->
+            <div class="pricing-card clay-card" data-aos="fade-up" data-aos-delay="0">
+                <span class="tier-name">Starter</span>
+                <p class="tier-desc">Perfect for individuals launching their first online presence.</p>
+                <div class="price-block">
+                    <span class="price-amount">P1,000</span>
+                    <span class="price-setup-label">one-time setup</span>
+                    <span class="price-monthly-tag no-fee">No monthly fee</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Single landing page</li>
+                    <li class="feature-no">No Supabase / database</li>
+                    <li class="feature-no">No custom domain</li>
+                </ul>
+                <a href="https://wa.me/26770000000" class="clay-button pricing-cta" target="_blank">Get Started</a>
+            </div>
+
+            <!-- Tier 2: Growth (Featured) -->
+            <div class="pricing-card clay-card pricing-card--featured" data-aos="fade-up" data-aos-delay="150">
+                <div class="most-popular-badge">Most Popular</div>
+                <span class="tier-name">Growth</span>
+                <p class="tier-desc">For businesses that need a full web presence with database and hosting.</p>
+                <div class="price-block">
+                    <div class="price-original-row">
+                        <span class="price-strike">P5,000</span>
+                        <span class="discount-badge">50% OFF</span>
+                    </div>
+                    <span class="price-amount">P2,500</span>
+                    <span class="price-setup-label">one-time setup</span>
+                    <span class="price-monthly-tag">+ P300/month (optional)</span>
+                    <span class="price-monthly-detail">hosting · database · email API · small updates</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Multi-page website</li>
+                    <li>Free SEO setup</li>
+                    <li>Supabase database integration</li>
+                    <li>Custom domain</li>
+                </ul>
+                <a href="https://wa.me/26770000000" class="clay-button pricing-cta pricing-cta--dark" target="_blank">Get Started</a>
+            </div>
+
+            <!-- Tier 3: Pro -->
+            <div class="pricing-card clay-card" data-aos="fade-up" data-aos-delay="300">
+                <span class="tier-name">Pro</span>
+                <p class="tier-desc">For businesses that want AI-powered features and the full WaaS experience.</p>
+                <div class="price-block">
+                    <span class="price-amount">P8,000<span class="price-plus">+</span></span>
+                    <span class="price-setup-label">setup (negotiable)</span>
+                    <span class="price-monthly-tag">+ P2,000/month (optional)</span>
+                    <span class="price-monthly-detail">fair usage applies for LLM API</span>
+                </div>
+                <ul class="feature-list">
+                    <li>Everything in Growth</li>
+                    <li>AI / website chatbot</li>
+                    <li>AI agents</li>
+                    <li>Advanced SEO</li>
+                </ul>
+                <a href="https://wa.me/26770000000" class="clay-button pricing-cta" target="_blank">Enquire</a>
+            </div>
+
+        </div>
+
+        <p class="other-services" data-aos="fade-up">
+            <strong>Other Services (quoted separately):</strong>
+            Social Media Management &nbsp;·&nbsp; Branding &amp; Logo Design &nbsp;·&nbsp; Ads Management &nbsp;·&nbsp; Graphic Design
+        </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-title" data-aos="fade-down">Our Masterpieces</h2>
+        <div class="blog-feed">
+
+            <!-- 01 — iRIS Tutors -->
+            <article class="blog-post" data-aos="fade-up">
+                <div class="blog-meta">
+                    <span class="post-number">01</span>
+                    <div class="tags">
+                        <span class="tag">Education</span>
+                    </div>
+                </div>
+                <div class="blog-layout">
+                    <div class="blog-text">
+                        <div class="post-title-row">
+                            <h3>IRIS Tutors</h3>
+                            <a href="https://iris-tutors.vercel.app/" class="btn-visit" target="_blank">Visit Site ↗</a>
+                        </div>
+                        <p>Iris Tutors is a private intitution with three branches across the Chobe region. Plateau, Kasane and Kachikau covering students from Primary all the way through to Senior School level. Every subject you can think of is on the table.</p>
+                        <p>The design uses a bold dark-blue palette with electric blue accents. Has a fully functional application flow. Student fills in their details and submits. Clean, quick, no confusion. The right people get notified and take it from there. No endless WhatsApp back and forth just to get enrolled. When enrolled, learners can track their progress and access materials. They get their own portal, Video lessons, revision materials. </p>
+                        <p>Built with modern web standards and deployed on Vercel for fast, reliable global delivery. The authentication system handles student enrollment, progress tracking, and portal access a complete digital infrastructure for a growing tutoring business.</p>
+                        <div class="blog-cta-row">
+                        </div>
+                    </div>
+                    <div class="blog-screenshot" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets/images/portfolio-iris.png" alt="iRIS Tutors Screenshot">
+                    </div>
+                </div>
+            </article>
+
+            <!-- 02 — Accolink -->
+            <article class="blog-post blog-post--reverse" data-aos="fade-up">
+                <div class="blog-meta">
+                    <span class="post-number">02</span>
+                    <div class="tags">
+                        <span class="tag">Booking Platform</span>
+                    </div>
+                    
+                </div>
+                <div class="blog-layout">
+                    <div class="blog-text">
+                        <div class="post-title-row">
+                            <h3>Accolink Guesthouses</h3>
+                            <a href="https://accolinkguesthouses.com/" class="btn-visit" target="_blank">Visit Site ↗</a>
+                        </div>
+                        <p>Africa has incredible places to stay. The problem has always been finding them. That's the whole idea behind AccoLink. A platform built specifically for this continent guesthouses from Botswana to Kenya to Egypt and beyond.</p>
+                        <p>Under the hood, Accolink runs on <strong>Supabase</strong> handling authentication, real-time database queries, and row-level security policies for multi-tenant property management. WhatsApp and email notification integrations keep guests and property owners in sync at every stage of the booking. The frontend is built in plain HTML/CSS/JS for maximum compatibility and performance.</p>
+                        <p>The site is clean, focused, and does exactly what it needs to do. You land on it, search your destination anywhere across Africa, set your budget in USD, and the listings come up. No clutter, no noise. Just find your stay and get there.</p>
+                        <div class="blog-cta-row">
+                        </div>
+                    </div>
+                    <div class="blog-screenshot" data-aos="fade-right" data-aos-delay="100">
+                        <img src="assets/images/portfolio-accolink.png" alt="Accolink Screenshot">
+                    </div>
+                </div>
+            </article>
+
+            <!-- 03 — People's Daily News Online -->
+            <article class="blog-post" data-aos="fade-up">
+                <div class="blog-meta">
+                    <span class="post-number">03</span>
+                    <div class="tags">
+                        <span class="tag">News Site template</span>
+                    </div>
+                    <span class="meta-badge meta-badge--sale">For Sale</span>
+                </div>
+                <div class="blog-layout">
+                    <div class="blog-text">
+                        <div class="post-title-row">
+                            <h3>News template website</h3>
+                            <a href="https://peoplesdaily-site.github.io/website/" class="btn-visit" target="_blank">Visit Site ↗</a>
+                        </div>
+                        <p>This one came from a simple question: why does every news site built in Botswana look like it was made in 2009? this website is the answer to that. It's a full digital newspaper template and it actually looks like one. Not a blog with a fancy header. Not a WordPress skin. A proper, structured, editorial news site that you could launch tomorrow and people would take seriously from day one.</p>
+                        <p>Additional features include newsletter signups, static editable pages (About, Contact, Advertise), and mobile-first responsive layout. The admin workflow is designed so a non-technical editor can publish, update, and manage stories entirely through the dashboard no coding skill required.</p>
+                        <p>This is a <strong>turn-key media product available for purchase</strong>. Whoever buys it gets a fully operational digital newsroom from day one.</p>
+                        <div class="for-sale-block">
+                            <div class="for-sale-price-row">
+                                <div class="for-sale-price">
+                                    <span class="for-sale-label">Site Price</span>
+                                    <span class="for-sale-amount">P3,000</span>
+                                </div>
+                                <div class="for-sale-price">
+                                    <span class="for-sale-label">Maintenance</span>
+                                    <span class="for-sale-amount for-sale-amount--sm">P300<span>/mo (optional)</span></span>
+                                </div>
+                            </div>
+                            <p class="for-sale-includes">Package includes: fully deployed site · dedicated Google account · GitHub repository · Supabase project all configured and handed over.</p>
+                            <p class="for-sale-maintenance">Monthly maintenance is optional and covers hosting monitoring, small content updates, and technical support.</p>
+                            <div class="blog-cta-row">
+                                <a href="https://wa.me/26770000000" class="clay-button" target="_blank">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-screenshot" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets/images/portfolio-pdno.png" alt="People's Daily News Online Screenshot">
+                    </div>
+                </div>
+            </article>
+
+            <!-- 04 — The Space Boy™ -->
+            <article class="blog-post blog-post--reverse" data-aos="fade-up">
+                <div class="blog-meta">
+                    <span class="post-number">04</span>
+                    <div class="tags">
+                        <span class="tag">E-Commerce</span>
+                    </div>
+                    <span class="meta-badge meta-badge--exclusive">© Exclusive Build</span>
+                </div>
+                <div class="blog-layout">
+                    <div class="blog-text">
+                        <div class="post-title-row">
+                            <h3>The Space Boy™</h3>
+                            <a href="https://treymadeit.github.io/thespaceboy/" class="btn-visit" target="_blank">Visit Site ↗</a>
+                        </div>
+                        <p class="copyright-note">THE SPACE BOY™ storefront design is exclusive and proprietary. All creative elements are protected intellectual property of THE SPACE BOY™ © 2026. All rights reserved.</p>
+                        <div class="blog-cta-row">
+                        </div>
+                        <p>Honestly, this one was fun to build.The Space Boy™ is a premium streetwear brand and they came in knowing exactly who they are which makes all the difference. The brief wasn't "make it look nice." It was build a premium looking minimalistic storefront. So that's what we did.</p>
+                        <p>Every design decision reflects the brand's ethos: bold, dark, and unapologetically different. The build includes a product showcase, collection pages for Tops, Bottoms, and Footwear, a brand story section, and a newsletter capture. The Space Boy™ trademark and visual identity are embedded throughout including the branded watermark visible across key sections of the site.</p>
+                        <p>This is not a template available for resale. It is a <strong>bespoke digital asset</strong> commissioned specifically for this brand. All design, layout, and branding elements remain the exclusive intellectual property of The Space Boy™.</p>
+                    </div>
+                    <div class="blog-screenshot" data-aos="fade-right" data-aos-delay="100">
+                        <img src="assets/images/portfolio-spaceboy.png" alt="The Space Boy™ Screenshot">
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="about-inner">
+            <div class="about-label-row" data-aos="fade-right">
+                
+            </div>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>We  Build.<br><span class="text-primary">You Grow.</span></h2>
+                    <p>WaaS (Website as a Service) is a Botswana-based web studio that builds fast, modern, and functional websites for businesses across Botswana and beyond. We are not an agency with layers of management and bloated quotes. We are a tight team of builders who care about the work.</p>
+                    <p>Every project we take on gets our full attention from the first brief to the final handover. We handle design, development, database integration, deployment, and ongoing maintenance, so you get one team that knows your site inside and out.</p>
+                    <p>Our stack is versatile and built around what each project actually needs: plain HTML/CSS/JS, Supabase for auth and databases, Vercel and GitHub Pages for hosting, and other tools brought in as the job calls for it. No unnecessary complexity, just sites that work.</p>
+                    <a href="https://wa.me/26770000000" class="clay-button" target="_blank" style="margin-top:1.2rem;display:inline-block;">Start a Conversation</a>
+                </div>
+                <div class="about-stats" data-aos="fade-left" data-aos-delay="150">
+                    <div class="stat-card clay-card">
+                        <span class="stat-number text-primary">4+</span>
+                        <span class="stat-label">Live Projects</span>
+                    </div>
+                    <div class="stat-card clay-card">
+                        <span class="stat-number text-primary">100%</span>
+                        <span class="stat-label">Custom Builds</span>
+                    </div>
+                    <div class="stat-card clay-card">
+                        <span class="stat-number text-primary">BWP</span>
+                        <span class="stat-label">Based in Botswana</span>
+                    </div>
+                    <div class="stat-card clay-card">
+                        <span class="stat-number text-primary">∞</span>
+                        <span class="stat-label">Hours of Care</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating CTA -->
+    <a href="https://wa.me/26770000000" class="whatsapp-float" target="_blank">
+        <img src="assets/images/whatsapp.svg" alt="WhatsApp">
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="assets/images/tiktok.png" alt="TikTok"></a>
+            <a href="#"><img src="assets/images/youtube.png" alt="YouTube"></a>
+        </div>
+        <div class="footer-legal">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <span class="footer-sep">&middot;</span>
+            <a href="terms.html">Terms &amp; Conditions</a>
+            <span class="footer-sep">&middot;</span>
+            <a href="refund-policy.html">Refund Policy</a>
+            <span class="footer-sep">&middot;</span>
+            <a href="cookie-policy.html">Cookie Policy</a>
+        </div>
+        <p>&copy; 2026 WaaS Corp. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000, once: true });</script>
+    <script src="js/main.js"></script>
+    <script src="js/dino.js"></script>
+</body>
+</html>
+
